@@ -6,13 +6,14 @@ const Result = ({ imc }) => {
 
 const Estilos = StyleSheet.create({
     result: {
-    marginTop: 20,
+    marginTop:40,
     fontSize: 24,
     textAlign: 'center',
     color: '#333',
     letterSpacing:5,
     },
     });
-    export default Result;
+// exporta o resultado
+export default Result;
 
 

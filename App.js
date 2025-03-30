@@ -1,22 +1,28 @@
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, View,ScrollView } from 'react-native';
 import Title from './src/components/Title';
 import FormIMC from './src/components/FormIMC';
-
+import Tabela from './src/components/Tabela';
 export default function App() {
   return (
-    <View style={styles.container}>
+    <ScrollView >
+
+      <View style={styles.container}>
+        
+        <Title />
+        <FormIMC />
+        <Tabela />
+        
+  
+      </View> 
       
-      <Title />
-      <FormIMC />
-    </View> 
-  );
-}
+    </ScrollView>
+    );
+  }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
     backgroundColor: '#f0f0f0',
-    
+    height:1300,
     justifyContent: 'center',
   },
 });

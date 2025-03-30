@@ -7,11 +7,12 @@ const IdealWeights = ({ pesoMin, pesoMax }) => {
 };
     const Estilo = StyleSheet.create({
         Ideal:{
-            fontSize:10,
-            marginTop: 5,
+        fontSize:10,
+        marginTop: 5,
         textAlign: 'center',
         color: '#3235',
         letterSpacing:2,
         }
     })
+    // exporta o peso ideal
 export default IdealWeights;
