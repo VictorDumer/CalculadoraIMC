@@ -5,6 +5,7 @@
   ## Resumindo:
 - O objetivo principal foi desenvolver um Aplicativo de Cálculo de IMC em React Native com Expo.
 - Demonstração do <span>[App funcionando.](https://youtube.com/shorts/_0mhCpxnatI) </span>
+- Explicação do <span>[Código realizado.](https://youtu.be/yLjlsrcbb-A) </span>
 
 ## Solução: 💡
 - ### <strong>Construção dos módulos </strong>
